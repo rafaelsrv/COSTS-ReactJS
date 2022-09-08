@@ -7,11 +7,11 @@ import logo from '../../img/costs_logo.png'
 
 function Navbar(){
     return(
-        <nav class={styles.navbar}>
+        <nav className={styles.navbar}>
     <Container>
         <Link to='/'><img src={logo} alt="costs"/>
         </Link>
-            <ul class={styles.list}>
+            <ul className={styles.list}>
                 <li className={styles.item}>
                     <Link to='/'>Home</Link>
                 </li>

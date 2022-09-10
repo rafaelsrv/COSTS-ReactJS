@@ -3,11 +3,13 @@ import { useState, useEffect } from 'react'
 import Message from "../layouts/Message"
 import styles from './Projects.module.css'
 import Container from '../layouts/Container'
+import Loading from '../layouts/Loading'
 import LinkButton from '../layouts/LinkButton'
 import ProjectCard from '../project/ProjectCard'
 
 function Projects(){
     const[projects, setProjects] = useState([])
+    const[removeLoading, setRemoveLoading] = useState(false)
 
     const location = useLocation()
     let message = ''
@@ -16,6 +18,7 @@ function Projects(){
     }
 
     useEffect(()=>{
+      setTimeout(()=>{
 
       fetch('http://localhost:5000/projects',{
         method: 'GET',
@@ -28,9 +31,11 @@ function Projects(){
       .then((data) =>{
         console.log(data)
         setProjects(data)
+        setRemoveLoading(true)
 
       })
       .catch((err) => console.log(err))
+    }, 300)
     },[])
             
     return (
@@ -52,6 +57,10 @@ function Projects(){
             key={project.id}
 
             />
+          )}
+          {!removeLoading && <Loading/>}
+          {removeLoading && projects.length ===0 && (
+            <p>Nâo há projetos!</p>
           )}
         </Container>
     </div>

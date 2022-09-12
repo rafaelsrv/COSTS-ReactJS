@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "rafael",
-      "budget": "333333",
+      "budget": "2222",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -10,6 +10,28 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "rafael",
+      "budget": "24",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "24",
+      "budget": "27",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [

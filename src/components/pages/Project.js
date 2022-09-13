@@ -32,6 +32,7 @@ useEffect(()=>{
  }, [id])
 
  function editPost(project) {
+    setMesage('')
     //budget validation
     if(project.budget < project.cost){
         setMesage('O orçamento não pode ser menor que o custo do projeto!')
@@ -51,7 +52,7 @@ useEffect(()=>{
         setProject(data)
         setShowProjectForm(false)
         setMesage('Projeto atualizado')
-        setType('succes')
+        setType('success')
         //Mensagem
     })
     .catch(err => console.log(err))

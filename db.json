@@ -7,7 +7,7 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 200,
+      "cost": 215,
       "services": [
         {
           "name": "rafael",
@@ -119,6 +119,48 @@
           "cost": "10",
           "description": "hehe",
           "id": "51d69176-1faf-4b65-8e27-0b30e055b5ed"
+        },
+        {
+          "name": "2112",
+          "cost": "1",
+          "description": "555",
+          "id": "0420855b-35dd-4051-a72d-7272eb1ed2b7"
+        },
+        {
+          "name": "2112",
+          "cost": "1",
+          "description": "555",
+          "id": "0420855b-35dd-4051-a72d-7272eb1ed2b7"
+        },
+        {
+          "name": "FazernEgoCIo",
+          "cost": "3",
+          "description": "NaoSeiDeNada",
+          "id": "50ebb487-1809-4c78-97a5-60c7838d2eb9"
+        },
+        {
+          "name": "FazernEgoCIo",
+          "cost": "3",
+          "description": "NaoSeiDeNada",
+          "id": "50ebb487-1809-4c78-97a5-60c7838d2eb9"
+        },
+        {
+          "name": "FazernEgoCIo",
+          "cost": "3",
+          "description": "NaoSeiDeNada",
+          "id": "50ebb487-1809-4c78-97a5-60c7838d2eb9"
+        },
+        {
+          "name": "FazernEgoCIo",
+          "cost": "3",
+          "description": "NaoSeiDeNada",
+          "id": "50ebb487-1809-4c78-97a5-60c7838d2eb9"
+        },
+        {
+          "name": "Novo",
+          "cost": "1",
+          "description": "NovoServiço",
+          "id": "214b4d9c-839c-456a-a6a4-c72a58a70ec7"
         }
       ],
       "id": 1
@@ -141,8 +183,27 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 600,
+      "services": [
+        {
+          "name": "Fazer Coisa",
+          "cost": "200",
+          "description": "Fazer as coisas",
+          "id": "4c4411db-73b8-4fe7-9e14-59c8fe38fae4"
+        },
+        {
+          "name": "Fazer Coisa",
+          "cost": "200",
+          "description": "Fazer as coisas",
+          "id": "4c4411db-73b8-4fe7-9e14-59c8fe38fae4"
+        },
+        {
+          "name": "Fazer Coisa",
+          "cost": "200",
+          "description": "Fazer as coisas",
+          "id": "4c4411db-73b8-4fe7-9e14-59c8fe38fae4"
+        }
+      ],
       "id": 5
     },
     {

@@ -7,6 +7,7 @@ import Container from '../layouts/Container'
 import ProjectForm from '../project/ProjectForm'
 import Message from '../layouts/Message'
 import ServiceForm from '../service/ServiceForms'
+import ServiceCard from '../service/ServiceCard'
 
 
 function Project () {
@@ -14,6 +15,7 @@ function Project () {
 const {id} = useParams()            //Conseguir verificar o ID.
 
 const [project, setProject] = useState([])
+const [services, setServices] = useState([])
 const [showProjectForm, setShowProjectForm] = useState(false)
 const [message, setMesage] = useState()
 const [type, setType] = useState()
@@ -30,6 +32,7 @@ useEffect(()=>{
     .then((resp)=> resp.json())
     .then((data)=> {
         setProject(data)
+        setServices(data.services)
     })
     .catch((err)=>console.log(err))
     }, 500)
@@ -94,7 +97,7 @@ function createService(project) {
     .then((resp)=> resp.json())
     .then((data) =>{
         //Exibir serviços
-        console.log(data)
+        setShowServiceForm(false)
     })
     .catch(err => console.log(err))
 
@@ -104,6 +107,9 @@ function createService(project) {
   }
   function toggleServiceForm() {
     setShowServiceForm(!showServiceForm)
+  }
+  function removeService(){
+
   }
 
 
@@ -155,7 +161,17 @@ function createService(project) {
                     </div>
                     <h2>Serviços</h2>
                     <Container customClass="start">
-                        <p>Itens de serviço</p>
+                        {services.length > 0 && 
+                        services.map((service)=> (
+                            <ServiceCard 
+                            id ={service.id}
+                            name ={service.name}
+                            cost ={service.cost}
+                            description ={service.description}
+                            key ={service.id}
+                            handleRemove ={removeService}/>
+                        ))}
+                        {services.length === 0 && <p>Não há serviçoes cadastrados.</p>}
                     </Container>
                 
             </Container>

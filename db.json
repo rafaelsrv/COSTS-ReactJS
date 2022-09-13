@@ -1,179 +1,27 @@
 {
   "projects": [
     {
-      "name": "rafael atualizado52",
-      "budget": "222",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 215,
-      "services": [
-        {
-          "name": "rafael",
-          "cost": "223333334",
-          "description": "22"
-        },
-        {
-          "name": "rafael",
-          "cost": "223333334",
-          "description": "22"
-        },
-        {
-          "name": "rafael",
-          "cost": "223333334",
-          "description": "22"
-        },
-        {
-          "name": "rafael",
-          "cost": "223333334",
-          "description": "22"
-        },
-        {
-          "name": "rafael",
-          "cost": "223333334",
-          "description": "22"
-        },
-        {
-          "name": "rafael",
-          "cost": "223333334",
-          "description": "22"
-        },
-        {
-          "name": "rafael",
-          "cost": "223333334",
-          "description": "22"
-        },
-        {
-          "name": "rafael",
-          "cost": "223333334",
-          "description": "22"
-        },
-        {
-          "name": "ra",
-          "cost": "14414",
-          "description": "4444555"
-        },
-        {
-          "name": "213123",
-          "cost": "1313131241512521",
-          "description": "4112412412"
-        },
-        {
-          "name": "213123",
-          "cost": "1313131241512521",
-          "description": "4112412412"
-        },
-        {
-          "name": "213123",
-          "cost": "1313131241512521",
-          "description": "4112412412"
-        },
-        {
-          "name": "213123",
-          "cost": "1313131241512521",
-          "description": "4112412412"
-        },
-        {
-          "name": "213123",
-          "cost": "1313131241512521",
-          "description": "4112412412"
-        },
-        {
-          "name": "213123",
-          "cost": "1313131241512521",
-          "description": "4112412412"
-        },
-        {
-          "name": "hehe",
-          "cost": "150",
-          "description": "naosei",
-          "id": "fb7df2b8-9995-4043-bed9-6c1d1aa3089c"
-        },
-        {
-          "name": "hehe32",
-          "cost": "2",
-          "description": "naosei",
-          "id": "95bc7df5-6a5b-4790-a1ea-59cabe02af9b"
-        },
-        {
-          "name": "servição",
-          "cost": "18",
-          "description": "Fazer nada",
-          "id": "31c986fb-d06b-4aac-bb1e-c365b1787f23"
-        },
-        {
-          "name": "naosei",
-          "cost": "10",
-          "description": "hehe",
-          "id": "51d69176-1faf-4b65-8e27-0b30e055b5ed"
-        },
-        {
-          "name": "naosei",
-          "cost": "10",
-          "description": "hehe",
-          "id": "51d69176-1faf-4b65-8e27-0b30e055b5ed"
-        },
-        {
-          "name": "naosei",
-          "cost": "10",
-          "description": "hehe",
-          "id": "51d69176-1faf-4b65-8e27-0b30e055b5ed"
-        },
-        {
-          "name": "2112",
-          "cost": "1",
-          "description": "555",
-          "id": "0420855b-35dd-4051-a72d-7272eb1ed2b7"
-        },
-        {
-          "name": "2112",
-          "cost": "1",
-          "description": "555",
-          "id": "0420855b-35dd-4051-a72d-7272eb1ed2b7"
-        },
-        {
-          "name": "FazernEgoCIo",
-          "cost": "3",
-          "description": "NaoSeiDeNada",
-          "id": "50ebb487-1809-4c78-97a5-60c7838d2eb9"
-        },
-        {
-          "name": "FazernEgoCIo",
-          "cost": "3",
-          "description": "NaoSeiDeNada",
-          "id": "50ebb487-1809-4c78-97a5-60c7838d2eb9"
-        },
-        {
-          "name": "FazernEgoCIo",
-          "cost": "3",
-          "description": "NaoSeiDeNada",
-          "id": "50ebb487-1809-4c78-97a5-60c7838d2eb9"
-        },
-        {
-          "name": "FazernEgoCIo",
-          "cost": "3",
-          "description": "NaoSeiDeNada",
-          "id": "50ebb487-1809-4c78-97a5-60c7838d2eb9"
-        },
-        {
-          "name": "Novo",
-          "cost": "1",
-          "description": "NovoServiço",
-          "id": "214b4d9c-839c-456a-a6a4-c72a58a70ec7"
-        }
-      ],
-      "id": 1
-    },
-    {
       "name": "RAFAEL S GOMES",
-      "budget": "5",
+      "budget": "50000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 4344,
+      "services": [
+        {
+          "name": "Contratar pessoas ",
+          "cost": "2000",
+          "description": "Contratar profissionais",
+          "id": "bfe00bdd-9653-4eec-9a85-5376620fd025"
+        },
+        {
+          "name": "rafael",
+          "cost": "2344",
+          "description": "11",
+          "id": "6001df63-6ca3-4580-8cef-58da1605eb6b"
+        }
+      ],
       "id": 4
     },
     {

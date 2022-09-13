@@ -108,7 +108,31 @@ function createService(project) {
   function toggleServiceForm() {
     setShowServiceForm(!showServiceForm)
   }
-  function removeService(){
+  function removeService(id, cost){
+    setMesage('')
+    const servicesUpdated = project.services.filter(
+        (service)=> service.id !==id)
+
+        const projectUpdated = project
+
+        projectUpdated.services = servicesUpdated
+        projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
+
+        fetch(`http://localhost:5000/projects/${project.id}`,{
+            method: 'PATCH',
+            headers:{
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(projectUpdated)
+        })
+        .then((resp)=> resp.json())
+        .then((data)=> {
+            setProject(projectUpdated)
+            setServices(servicesUpdated)
+            setMesage('Serviço removido com sucesso!')
+        } )
+
+    
 
   }
 

@@ -14,6 +14,7 @@ const [project, setProject] = useState([])
 const [showProjectForm, setShowProjectForm] = useState(false)
 const [message, setMesage] = useState()
 const [type, setType] = useState()
+const [showServiceForm, setShowServiceForm] = useState(false)
 
 useEffect(()=>{
     setTimeout(()=>{
@@ -62,6 +63,9 @@ useEffect(()=>{
  function toggleProjectForm() {
     setShowProjectForm(!showProjectForm)
   }
+  function toggleServiceForm() {
+    setShowServiceForm(!showServiceForm)
+  }
 
 
     
@@ -96,6 +100,21 @@ useEffect(()=>{
                         )}
                     
                 </div>
+                <div className={styles.service_form_container}>
+                    <h2>Adicione um serviço: </h2>
+                    <button  className={styles.btn} 
+                    onClick={toggleServiceForm}> {!showServiceForm ? 'Adicionar Serviço' : 'Fechar'}</button>
+                    <div className={styles.project_info}>
+                        {
+                            showServiceForm && <div>Formulário do serviço</div>
+                        }
+                    </div>
+                    </div>
+                    <h2>Serviços</h2>
+                    <Container customClass="start">
+                        <p>Itens de serviço</p>
+                    </Container>
+                
             </Container>
         </div>
         ) :  (

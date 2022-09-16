@@ -60,7 +60,7 @@ useEffect(()=>{
         setShowProjectForm(false)
         setMesage('Projeto atualizado')
         setType('success')
-        //Mensagem
+        
     })
     .catch(err => console.log(err))
 }

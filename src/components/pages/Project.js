@@ -48,7 +48,7 @@ useEffect(()=>{
         // Mensagem
     }
     fetch(`http://localhost:5000/projects/${project.id}`,{
-        method: 'PATCH',
+        method: 'PATCH', //Abertura de projeto
         headers:{
             'Content-Type': 'application/json',
         },

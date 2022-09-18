@@ -59,7 +59,7 @@ useEffect(()=>{
         setProject(data)
         setShowProjectForm(false)
         setMesage('Projeto atualizado')
-        setType('success')
+        setType('success')// Mensagem de sucesso ao atualizar projeto
         //!!!!!
         
     })

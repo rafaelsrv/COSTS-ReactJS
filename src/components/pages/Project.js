@@ -68,7 +68,7 @@ useEffect(()=>{
 
 function createService(project) {
     setMesage('')
-    // last service - 
+    // last service - Ultimo dado passado
     const lastService = project.services[project.services.length - 1]
 
     lastService.id = uuidv4()

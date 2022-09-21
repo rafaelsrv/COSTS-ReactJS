@@ -79,7 +79,7 @@ function createService(project) {
 
     // maximum value validation
     if (newCost > parseFloat(project.budget)) {
-      setMesage('Orçamento ultrapassado, verifique o valor do serviço!')
+      setMesage('Orçamento ultrapassado, verifique o valor do serviço!!')
       setType('error')
       project.services.pop()
       return false

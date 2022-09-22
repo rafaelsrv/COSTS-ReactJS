@@ -1,69 +1,15 @@
 {
   "projects": [
     {
-      "name": "RAFAEL S GOMES",
-      "budget": "50000",
+      "name": "Projetãum",
+      "budget": "10000",
       "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 4344,
-      "services": [
-        {
-          "name": "Contratar pessoas ",
-          "cost": "2000",
-          "description": "Contratar profissionais",
-          "id": "bfe00bdd-9653-4eec-9a85-5376620fd025"
-        },
-        {
-          "name": "rafael",
-          "cost": "2344",
-          "description": "11",
-          "id": "6001df63-6ca3-4580-8cef-58da1605eb6b"
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "Rafael",
-      "budget": "2222",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 600,
-      "services": [
-        {
-          "name": "Fazer Coisa",
-          "cost": "200",
-          "description": "Fazer as coisas",
-          "id": "4c4411db-73b8-4fe7-9e14-59c8fe38fae4"
-        },
-        {
-          "name": "Fazer Coisa",
-          "cost": "200",
-          "description": "Fazer as coisas",
-          "id": "4c4411db-73b8-4fe7-9e14-59c8fe38fae4"
-        },
-        {
-          "name": "Fazer Coisa",
-          "cost": "200",
-          "description": "Fazer as coisas",
-          "id": "4c4411db-73b8-4fe7-9e14-59c8fe38fae4"
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "4144",
-      "budget": "4444",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 6
+      "id": 1
     }
   ],
   "categories": [

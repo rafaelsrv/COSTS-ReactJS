@@ -8,6 +8,7 @@ import Footer from './components/layouts/Footer';
 import Navbar from './components/layouts/Navbar';
 import Projects from './components/pages/Projects';
 import Project from './components/pages/Project';
+import Detalhes from './components/pages/Detalhes';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route exact path='/newproject' element={<NewProject />} />
         <Route exact path='/projects' element={<Projects />} />
         <Route exact path='/project/:id' element={<Project />} />
+        <Route exact path='/detalhes' element={<Detalhes />} />
 </Routes>
 </Container>
 

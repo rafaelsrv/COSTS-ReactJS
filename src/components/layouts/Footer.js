@@ -3,6 +3,7 @@ import {FaInstagram, FaLinkedin} from 'react-icons/fa'
 import styles from './Footer.module.css'
 
 function Footer(){
+    //Footer contendo links.
     return(
         <footer className={styles.footer}>
             <ul className={styles.social_list}>
@@ -11,7 +12,7 @@ function Footer(){
                     <FaInstagram/>   
                  </li>
                  <li>
-                    <FaLinkedin/>
+                    <FaLinkedin/> 
                 </li>
             </ul>
             <p className={styles.copy_right}>

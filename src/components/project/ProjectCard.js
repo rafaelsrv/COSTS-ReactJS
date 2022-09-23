@@ -27,7 +27,7 @@ function ProjectCard({id, name, budget, category, handleRemove}){
                 <button onClick = {remove}>
                     <BsFillTrashFill/> Excluir
                 </button>
-                <Link to ={"/detalhes"}>
+                <Link to ={`/detalhes/${id}`}>
                     <BsSearch/>Detalhes
                 </Link>
                 

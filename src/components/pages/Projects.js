@@ -32,7 +32,8 @@ function Projects(){
       .then((data) =>{
         console.log(data)
         setProjects(data)
-        setRemoveLoading(true)
+        setRemoveLoading(true)  //setando loading
+        
 
       })
       .catch((err) => console.log(err))
